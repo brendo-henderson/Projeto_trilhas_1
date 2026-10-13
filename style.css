@@ -1,0 +1,88 @@
+body {
+     font-family: 'Inter', sans-serif;
+     background: linear-gradient(135deg, #afcbda 0%, #59abe5 50%, #75a8db 100%);
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+      
+}
+
+.imagem-circular {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #f6f5f5;
+    object-fit: cover;
+}
+
+button{
+    width: 400px;
+    height: 50px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    
+    font-size: 13pt;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #afcbda;
+    border:2px;
+    border-color: #000;
+    border-style: inset;
+    color: #f6f5f5;
+}
+
+h2{
+    color: #FFF;
+}
+
+p {
+    color:#FFF;
+}
+
+.sobremim {
+width: 800px;
+}
+
+.ico {
+    width: 30px;
+    height: 30px;
+}
+
+.projetos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 15px;
+}
+
+.card-projeto {
+    border: 1px solid #777;
+    border-radius: 12px;
+    padding: 19px;
+    background: #d6d4cd;
+    width: 250px;
+}
+
+.card-projeto img {
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.card-projeto a {
+    color: #000;
+    font-size: 17px;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+.card-projeto a:hover {
+    color: #8b3d8f;
+}
+
